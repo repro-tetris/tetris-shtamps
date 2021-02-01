@@ -11,11 +11,21 @@ h1 {
   text-align: center;
   margin-bottom: 80px;
   margin-top: 50px;
-  width: 50%;
+  /* width: 50%; */
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 20px;
-  border-bottom: 3px solid black;
+  /* border-bottom: 3px solid black; */
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  top: calc(50px + 70px + 20px);
+  left: 25%;
+  width: 50%;
+  height: 3px;
+  background-color: black;
 }
 h2 {
   font-size: 40px;
