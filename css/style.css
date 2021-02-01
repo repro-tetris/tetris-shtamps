@@ -16,6 +16,17 @@ body {
 }
 
 a {
+  width: 220px;
+  height: 85px;
   font-size: 40px;
   padding: 20px;
+  background-color: grey;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+a:hover,
+a:focus {
+  background-color: darkblue;
 }
