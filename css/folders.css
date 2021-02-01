@@ -47,6 +47,7 @@ h2 {
   transition: 0.5s;
 }
 .container__item {
+  display: inline-block;
   padding: 10px;
   background-color: white;
   margin-bottom: 20px;
@@ -54,6 +55,7 @@ h2 {
 
   transition: 0.5s;
 }
+
 h3 {
   font-size: 30px;
   font-weight: 700;
@@ -64,6 +66,9 @@ h3 {
   width: 100%;
   object-fit: contain;
   margin-bottom: 20px;
+}
+.container__image.hanger {
+  height: 500px;
 }
 .container__image img {
   width: 100%;
